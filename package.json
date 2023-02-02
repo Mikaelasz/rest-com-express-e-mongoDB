@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Mikaelasz/rest-com-express-e-mongoDB/issues"
   },
-  "homepage": "https://github.com/Mikaelasz/rest-com-express-e-mongoDB#readme"
+  "homepage": "https://github.com/Mikaelasz/rest-com-express-e-mongoDB#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
