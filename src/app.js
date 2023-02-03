@@ -19,10 +19,10 @@ routes(app);
     {id: 2, "titulo": "O Hobiit"}
 ]*/
 
+
 app.get('/livros/:id', (req, res) => {
     let index = buscaLivro(req.params.id);
-    res.json(livros[index])
-
+    res.json(livros[index]);
 })
 
 app.put('/livros/:id', (req, res) => {
